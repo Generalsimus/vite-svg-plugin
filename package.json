@@ -1,0 +1,21 @@
+{
+  "name": "@kix/vite-svg",
+  "version": "0.0.1",
+  "description": "vite svg plugin",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "keywords": [
+    "webpack",
+    "typescript",
+    "typescript-loader",
+    "webpack-ts",
+    "ts-loader",
+    "webpack-plugin",
+    "ts"
+  ]
+}
