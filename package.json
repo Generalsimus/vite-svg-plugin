@@ -1,8 +1,8 @@
 {
-  "name": "@kix/vite-svg",
+  "name": "svg-plugin-vite",
   "version": "0.0.1",
-  "description": "vite svg plugin",
-  "main": "./dist/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,24 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Generalsimus/vite-svg-plugin.git"
   },
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "@svgr/core": "^6.5.1"
-  },
   "bugs": {
     "url": "https://github.com/Generalsimus/vite-svg-plugin/issues"
   },
-  "homepage": "https://github.com/Generalsimus/vite-svg-plugin-#readme",
-  "keywords": [
-    "vite-svg",
-    "svg",
-    "vite",
-    "vite-plugin",
-    "vite-svg-plugin",
-    "plugin"
-  ]
+  "homepage": "https://github.com/Generalsimus/vite-svg-plugin#readme",
+  "dependencies": {
+    "@svgr/core": "^6.5.1"
+  }
 }
