@@ -4,8 +4,8 @@ import fs from 'fs'
 
 
 export interface Options {
-    name: string | "svg-loader"
-    test: RegExp
+    name?: string | "svg-loader"
+    test?: RegExp
     config?: Config,
     state?: Partial<State>
 }
