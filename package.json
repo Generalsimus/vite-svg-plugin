@@ -6,16 +6,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Generalsimus/vite-svg-plugin.git"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@svgr/core": "^6.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Generalsimus/vite-svg-plugin/issues"
+  },
+  "homepage": "https://github.com/Generalsimus/vite-svg-plugin-#readme",
   "keywords": [
-    "webpack",
-    "typescript",
-    "typescript-loader",
-    "webpack-ts",
-    "ts-loader",
-    "webpack-plugin",
-    "ts"
+    "vite-svg",
+    "svg",
+    "vite",
+    "vite-plugin",
+    "vite-svg-plugin",
+    "plugin"
   ]
 }
